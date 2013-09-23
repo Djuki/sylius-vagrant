@@ -22,6 +22,15 @@ This full stack includes
  password: iloverandompasswordsbutthiswilldo
 
 
+ You can change your mysql credential in Vagrantfile if you don't think it's creative enough
+
+          "mysql" => {
+            "server_root_password" => "iloverandompasswordsbutthiswilldo",
+            "server_repl_password" => "iloverandompasswordsbutthiswilldo",
+            "server_debian_password" => "iloverandompasswordsbutthiswilldo"
+          }
+
+
  ## Installation
 
  1 - Clone this repo
@@ -30,7 +39,7 @@ This full stack includes
         cd sylius-vagrant
         vagrant up
 
- 2 - When vagrant is done with provisioning insgtall Sylius
+ 2 - When vagrant is done with provisioning install Sylius
 
         vagrant ssh
         cd /var/www/Sylius
@@ -40,4 +49,18 @@ This full stack includes
 
         php app/console sylius:install
 
- Just answer on the questions from the cli and your app is ready
+ Just answer on the questions from the cli and your app is ready on `172.33.33.34` address.
+ To make it live on `sylius.local` you need to set up you local hosts file like this.
+
+
+ If you are on Linux add this line into `etc/hosts` file.
+
+        sudo nano /etc/hosts
+
+ Add this line
+
+        172.33.33.34     sylius.local
+
+ Save the file `CTRL+O` and close `CRTL+X`
+
+ You are ready to rock now
