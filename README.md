@@ -18,7 +18,7 @@ This full stack includes
  ### Mysql
 
  user: root
- 
+
  password: iloverandompasswordsbutthiswilldo
 
 
@@ -26,15 +26,15 @@ This full stack includes
 
  1 - Clone this repo
 
-    git clone https://github.com/Djuki/sylius-vagrant.git
-    cd sylius-vagrant
-    vagrant up
+     git clone https://github.com/Djuki/sylius-vagrant.git
+     cd sylius-vagrant
+     vagrant up
 
  2 - When vagrant is done with provisioning insgtall Sylius
 
-    vagrant ssh
-    cd /var/www/Sylius
-    composer install
+     vagrant ssh
+     cd /var/www/Sylius
+     composer install
 
  When all packages are installed install sylius application
 

@@ -9,7 +9,7 @@
     <file path="$PROJECT_DIR$/../www/Sylius/app/config/parameters.yml" changelist="24e22ac4-4a2f-4b53-b933-cf96c91a47f1" time="1379884386507" ignored="false" />
     <file path="$PROJECT_DIR$/../www/Sylius/app/cache/dev/appDevDebugProjectContainer.xml" changelist="24e22ac4-4a2f-4b53-b933-cf96c91a47f1" time="1379884412861" ignored="false" />
     <file path="$PROJECT_DIR$/../www/Sylius/vagrant/Vagrantfile" changelist="24e22ac4-4a2f-4b53-b933-cf96c91a47f1" time="1379884866193" ignored="false" />
-    <file path="/.gitignore" changelist="24e22ac4-4a2f-4b53-b933-cf96c91a47f1" time="1379928776771" ignored="false" />
+    <file path="/.gitignore" changelist="24e22ac4-4a2f-4b53-b933-cf96c91a47f1" time="1379932508316" ignored="false" />
     <file path="/default.rb" changelist="24e22ac4-4a2f-4b53-b933-cf96c91a47f1" time="1379928313533" ignored="false" />
     <file path="/mysql.rb" changelist="24e22ac4-4a2f-4b53-b933-cf96c91a47f1" time="1379889061641" ignored="false" />
     <file path="/a.dummy" changelist="24e22ac4-4a2f-4b53-b933-cf96c91a47f1" time="1379930082888" ignored="false" />
@@ -54,7 +54,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="1" selection-start="413" selection-end="413" vertical-scroll-proportion="0.5425926">
+            <state line="42" column="5" selection-start="826" selection-end="826" vertical-scroll-proportion="0.89444447">
               <folding />
             </state>
           </provider>
@@ -82,15 +82,6 @@
         <entry file="file://$PROJECT_DIR$/cookbooks/sylius/recipes/packages.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="18" selection-start="248" selection-end="252" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/Sylius/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="28" selection-start="3649" selection-end="3649" vertical-scroll-proportion="-19.642857">
               <folding />
             </state>
           </provider>
@@ -126,7 +117,19 @@
       <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="4" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+            <state line="1" column="6" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cookbooks/README.md">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -366,11 +369,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cookbooks/php/libraries/helpers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/phpmyadmin/recipes/mysql.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -434,23 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="50" selection-start="694" selection-end="694" vertical-scroll-proportion="-11.137931">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cookbooks/sylius/recipes/packages.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="18" selection-start="248" selection-end="252" vertical-scroll-proportion="0.0">
@@ -472,12 +453,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="50" selection-start="694" selection-end="694" vertical-scroll-proportion="-11.137931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookbooks/README.md">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="1" selection-start="413" selection-end="413" vertical-scroll-proportion="0.5425926">
+        <state line="42" column="5" selection-start="826" selection-end="826" vertical-scroll-proportion="0.89444447">
           <folding />
         </state>
       </provider>
