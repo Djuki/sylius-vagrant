@@ -1,0 +1,11 @@
+User vagrant
+Group vagrant
+
+<VirtualHost *:80>
+    Servername sylius.local
+    Serveralias 172.33.33.34
+    DocumentRoot /var/www/Sylius/web
+    <Directory "/var/www/Sylius/web">
+        AllowOverride All
+    </Directory>
+</VirtualHost>
