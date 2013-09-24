@@ -64,3 +64,9 @@ This full stack includes
  Save the file `CTRL+O` and close `CRTL+X`
 
  You are ready to rock now
+
+ If you're having issues with `composer install` please try this:
+
+```bash
+$ COMPOSER_PROCESS_TIMEOUT=4000 composer install
+```

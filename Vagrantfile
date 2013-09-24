@@ -37,8 +37,11 @@ Vagrant::Config.run do |config|
             "server_repl_password" => "iloverandompasswordsbutthiswilldo",
             "server_debian_password" => "iloverandompasswordsbutthiswilldo"
           }
-
     }
-
   end
+
+  if File.exist? "./Vagrantfile.local"
+    load "./Vagrantfile.local"
+  end
+
 end
