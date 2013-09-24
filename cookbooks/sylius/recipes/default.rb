@@ -20,7 +20,7 @@ include_recipe "php::module_mysql"
 include_recipe "apache2::mod_php5"
 
 #install mongodb server
-include_recipe "mongodb::10gen_repo"
+include_recipe "mongodb::default"
 
 #install basic packages
 include_recipe "sylius::packages"

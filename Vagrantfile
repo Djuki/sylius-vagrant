@@ -7,12 +7,12 @@ Vagrant::Config.run do |config|
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "precise32"
+  config.vm.box = "precise64"
   config.vm.host_name = "sylius"
 
   # The url from where the 'config.vm.box' box will be fetched if it
   # doesn't already exist on the user's system.
-  config.vm.box_url = "http://files.vagrantup.com/precise32.box"
+  config.vm.box_url = "http://files.vagrantup.com/precise64.box"
 
   config.vm.network :hostonly, "172.33.33.34"
   config.vm.share_folder "vagrant-root", "/var/www", "./www" , :nfs => true
@@ -29,7 +29,10 @@ Vagrant::Config.run do |config|
 
     chef.cookbooks_path = "cookbooks"
     chef.add_recipe("apt")
+    chef.add_recipe("mongodb::10gen_repo")
     chef.add_recipe("sylius")
+
+
 
     chef.json = {
           "mysql" => {
